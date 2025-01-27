@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A heartfelt apology. Please forgive me.">
+    <meta name="author" content="Your Friend">
     <title>I'm Sorry</title>
     <style>
         body {
@@ -52,7 +54,7 @@
 <body>
     <div class="container" id="content">
         <h1>I'm Sorry</h1>
-        <p>I know I upset you, and nijamga Sorry. I didn’t mean to hurt you. Please Vani.</p>
+        <p>I know I upset you, and I regret it deeply. I didn’t mean to hurt you. Please forgive me.</p>
         <button class="button" onclick="handleResponse(true)">Yes</button>
         <button class="button" onclick="handleResponse(false)">No</button>
     </div>
@@ -61,7 +63,7 @@
         function handleResponse(isForgiven) {
             const content = document.getElementById('content');
             if (isForgiven) {
-                content.innerHTML = '<h1>Thank You</h1><p>Flow mey Agaya ji. I promise to be more thoughtful in the future. Note: Enduku ee page chesav ani matram question cheyyaku .</p>';
+                content.innerHTML = '<h1>Thank You</h1><p>Your forgiveness means so much to me. I promise to be more thoughtful in the future.</p>';
             } else {
                 alert('Please...');
             }
